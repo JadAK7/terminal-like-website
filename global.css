@@ -1,0 +1,59 @@
+body {
+    background-color: #211d1b;
+    margin: 2rem;
+}
+
+#root {
+    color: #6da2a3;
+    font-size: large;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+#root::before {
+    content: "ubuntu@chopin:~$";
+    color: #4d8f6e;
+    margin-right: 0.25rem;
+}
+
+#cursor {
+    color: #6da2a3;
+    animation: blink 1.25s linear infinite
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.previous {
+    margin-bottom: 1rem;
+}
+
+#prev {
+    color: #4d8f6e;
+    font-size: large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    white-space: pre;
+}
+
+#pre {
+    color: #519975
+}
+
+p {
+    color: #B89076
+}
+
+.command {
+    color:#73ABAD;
+    display: inline-block;
+    min-width: 6rem;
+    margin-left: 1rem;
+}
+
+.dance {
+    animation: blink 1s linear infinite
+}
