@@ -17,7 +17,7 @@ export const socialsMap = new Map([
   [2, "gitHub"],
   [3, "@JadAK7"],
   [4, "email"],
-  [5, "jadaboukaram2002@hotmail.com"],
+  [5, "jadaboukaram@gmail.com"],
 ]);
 
 export const noCommandFound = `No command found. Type "help" for a list of available commands`;
